@@ -9,9 +9,44 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/general.css">
         <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/header.css">
     </head>
 
     <body>
+        <div class="header">
+            <div class="left-section">
+                <img class="hamburger-menu" src="images/icons/hamburger-menu.svg">
+                <img class="youtube-logo" src="images/icons/youtube-logo.svg">
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="images/icons/search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice-search-button">
+                    <img class="voice-search-icon" src="images/icons/voice-search-icon.svg">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+            <div class="right-section">
+                <div class="icon-container">
+                    <img class="icon" src="images/icons/upload.svg">
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="icon-container">
+                    <img class="icon" src="images/icons/youtube-apps.svg">
+                    <div class="tooltip">Youtube Apps</div>
+                </div>
+                <div class="icon-container">
+                    <img class="icon" src="images/icons/notifications.svg">
+                    <div class="tooltip">notifications</div>
+                    <div class="notifications-count">3</div>
+                </div>
+                <img class="current-user-picture" src="images/channel-pictures/my-channel.jpeg">
+            </div>
+        </div>
+
         <div class="video-grid">
             <div class="video-card">
                 <div class="thumbnail-container">

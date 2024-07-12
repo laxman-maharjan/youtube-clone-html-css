@@ -4,7 +4,7 @@
     /* grid-template-columns: repeat(auto-fit, minmax(470px,1fr)); */
     grid-template-columns: repeat(auto-fit, minmax(min(380px, 100%), 1fr));
     gap: 16px 8px;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .video-card {
